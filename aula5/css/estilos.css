@@ -1,0 +1,104 @@
+* {
+	margin:0;
+	padding:0;
+	}
+
+	html, body {height:100%;}
+body {
+	text-align:center;                     
+	font-family: 'Rubik', sans-serif;
+	background-image: url("https://images7.alphacoders.com/373/373253.jpg");
+	}
+#tudo{
+	min-height:100%;
+	width:722px;
+	margin:0 auto;
+	text-align:left;
+	}
+#topo {
+	height:90px;
+	
+	}
+#principal {
+	float:left;
+	width: 408px;
+	
+	margin-left:156px;
+	display:inline;	
+	text-align:justify;
+	}
+#nav-sec {
+	float:left;
+	width: 20%;
+	background:#eee;                    
+	margin-right:-100%;
+	}
+#navegacao {
+	float:left;
+	width: 20%;
+	background:#eee;
+	margin-left:-77%;
+	
+	display:inline; background: #CBD3D0;                                              
+	}
+#rodape {
+	height:50px;
+	background: #CBD3D0;  
+	clear:both;
+	} 
+h1{
+	font-family: 'Rubik', sans-serif;
+	font-size: 130%;
+	color:#2B6750;
+	margin-left:5px;
+	}
+h2{
+	font-family: 'Rubik', sans-serif;
+	font-size: 120%;
+	color:#2B6750;
+	margin-left:5px;
+	}
+p { 
+	color:#333; 
+	margin:10px 0;
+	}
+ul{
+	margin-left:5px;
+	background: #CBD3D0;
+	}
+li { 
+
+	list-style:none;
+	}
+aside {
+	background: #CBD3D0;
+	}
+nav {
+	background: #CBD3D0;
+	}
+article {
+	background: #CBD3D0; 
+	}
+a:link { 
+	text-decoration:none;
+	color:#2B6750;
+	 }
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* mootorola*/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+body {
+background: white;
+}
+
+}

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Rodolfo C.R</title>
+    <meta charset="utf-8">
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.5.2.js'></script>
+    <link rel="stylesheet" href="css/estilos.css">  <!-- importação de css-->
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'> <!-- importação do google fonts-->
+</head>
+<body> 
+    <div id="tudo">
+        <div id="topo"> 
+            <header>
+                <div align="center"><img src="img/1.png" alt="Logotipo do cinema" id="logoTopo"/></div>
+            </header>
+        </div> 
+        <div id="principal">   <!-- id principal -->
+            <section>
+                <article>
+                <div style="text-align:center">
+                <video controls width="350" height="205">
+                    <source src="videos/1.mp4" type="video/mp4">
+                </video>
+                    <br>
+                <video controls width="350" height="205">    
+                    <source src="videos/2.mp4" type="video/mp4">
+                </video></div>
+                <div style="text-align:center">   
+                </div><HR SIZE=3 NOSHADE>
+                <br><div align="center"><b><u>Formulário de Contato:</u></b><br><br><br>
+                <form>
+                    <b>Sexo:</b><br>
+                    <input type="radio" name="gender" value="masculino" checked> Masculino<br>
+                    <input type="radio" name="gender" value="feminino"> Feminino<br>
+                    <input type="radio" name="gender" value="outro"> Indefinido<br>
+                    <br>
+                    <b>Nome:</b><br>
+                    <input type="text" name="primeiro" maxlength="10" placeholder="Nome:">
+                    <br>
+                    <b>Sobrenome:</b><br>
+                    <input type="text" name="segundo" maxlength="10" placeholder="Sobrenome:">
+                    <br>
+                    <b>E-mail:</b><br>
+                    <input type="text" name="email" maxlength="30" placeholder="E-mail:">
+                    <br>
+                    <b>Cidade:</b><br>
+                    <input type="text" name="cidade" maxlength="20" placeholder="Cidade:">
+                    <br>
+                    
+                    <label for="meeting"><b>Data de nascimento:</b><br></label><input id="meeting" type="date" value="11-04-2016"/><!--value substituindo max,min -->
+                    <br>
+                    <b>País:</b><br>
+                    <input type="text" name="pais" maxlength="30" placeholder="País:">
+                    <br>
+                    
+                    <label><b>Senha:</b><br><input type="password" placeholder="Senha:"></label>
+                    <br>
+                    <label><b>Confirmação de senha:</b><br><input type="password" placeholder="Confirmação:"></label><br><br>
+                    <fieldset>
+                    <legend><b><u>Deseja receber confirmação de cadastro?</u></b></legend>
+                        <input type="radio" name="animal" value="sim" />Sim<br />
+                        <input type="radio" name="animal" value="não" />Não<br />
+                        <input onclick="alert('Ainda não estamos trabalhando com PHP.'); "type="submit" value="Enviar" />
+                    </fieldset></div>
+                </form>
+                </article>
+            </section>
+        </div>
+        <div id="nav-sec">   <!-- alinhamento a direita-->
+            <aside>
+                <h2>Notícias relacionadas</h2>
+                <ul>
+                    <li><a href="http://www.unicit.com.br/windows-10-supera-8-1-e-se-torna-o-2o-sistema-operacional-mais-usado-no-mundo/">Windows 10</a></li>
+                    <li><a href="http://www.tecnomasters.com.br/10-dicas-de-como-se-proteger-na-internet/">Dica de segurança</a></li>
+                    <li><a href="http://social.technet.microsoft.com/wiki/pt-br/contents/articles/33791.o-novo-mecanismo-de-log-do-asp-net-core-1-0.aspx">ASP NET </a></li>
+                </ul>
+            </aside> 
+        </div> 
+        <div id="navegacao">  <!-- alinhamento a esquerda-->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Incio</a></li>  <br>  
+                    <li><a href="instagram.html">Projeto instagram</a></li>
+                    <li><a href="facebook.html">Projeto Facebook</a></li>
+                    <li><a href="net.html">Projeto NET</a></li>
+                    
+                </ul>
+            </nav>
+        </div> 
+        <div id="rodape">   <!-- rodape-->
+            <footer>
+                <nav>
+                    <ul>
+                        <li><a href="construção.html">FAQ</a></li>
+                        <li><a href="construção.html">Política de privacidade</a></li>
+                        <li><a href="construção.html">Termos de condição e uso</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> 
+    </div> 
+</body>
+</html>

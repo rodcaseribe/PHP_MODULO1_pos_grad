@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script language=javascript type="text/javascript">
+    function chamada(){
+var estados = ["São Paulo", "Minas Gerais", "Paraiba", "Parana", "Pernambuco"];
+//var cidades = ["São Carlos", "Belo Horizonte", "João Pessoa", "Curitiba","Recife"];
+	var z = valor.value;
+	if (z == "São Paulo"){
+	document.getElementById("valor").value = "São Paulo";
+	document.getElementById("valor2").value = "São Carlos";
+	document.getElementById("valor3").value = "Jd Pacaembu";
+	}
+	else if(z == "Minas Gerais"){
+        document.getElementById("valor").value= "Minas Gerais";
+	document.getElementById("valor2").value = "Belo Horizonte";
+	document.getElementById("valor3").value = "Jd Belo Horizonte";
+        }
+	else if(z == "Paraiba"){
+        document.getElementById("valor").value = "Paraiba";
+	document.getElementById("valor2").value = "João Pessoa";
+	document.getElementById("valor3").value = "Jd Lula";
+        }
+	else if (z == "Parana"){
+        document.getElementById("valor").value = "Parana";
+	document.getElementById("valor2").value= "Curitiba";
+	document.getElementById("valor3").value = "Jd Salomão";
+        }
+	//else (valor.value = "Pernambuco"){
+        else{
+	document.getElementById("valor").value = "Pernambuco";
+	document.getElementById("valor2").value= "Recife";
+	document.getElementById("valor3").value = "Jd Fernandopolis";
+        }
+} 
+</script>
+</head>
+<body>
+ESTADOS:
+<input type=text name="texto" id="valor" placeholder="Digite Aqui"></input><br>
+CIDADES:
+<input type=text name="texto2" id="valor2" ></input><br>
+BAIRROS:
+<input type=text name="texto3" id="valor3" ></input><br>
+<input type=button onClick="chamada()" value="Enviar" style="float:center;margin-left: 15%;padding:5px;"></input>
+</body>
+</html>
+

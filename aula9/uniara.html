@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<title>Rodolfo Casemiro Ribeiro</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#couleur').change(function(){
+				$('p').css('color',$(this).val());
+		});
+	});
+
+		$(function(){
+		$('#w').change(function(){
+			var color = $(this).val();
+			$('body').css('background',color);
+		});	
+
+		});
+
+	</script>
+	<style>
+	</style>
+</head>
+<body>
+	<div align="center"><h2>Defina a cor do texto.</h2>
+	<p>COR da letra selecionada.</p>	
+	<input type='color' id='couleur'>
+	
+
+    <h3>COR de fundo selectionada.</h3>
+	<input id='w' type='color' /></div>
+</body>
+</html>
+
+
+
+
+
+
+
+<html>
+<head>
+<script type="text/javascript" language="javascript">
+function changeColour()
+{
+  if (document.frmSurvey.fld2.checked)
+  {
+    document.body.style.backgroundColor ="#FF0000"; // red
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+function changeColour2()
+{
+  if (document.frmSurvey.fld3.checked)
+  {
+    document.body.style.backgroundColor = "yellow";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+function changeColour3()
+{
+  if (document.frmSurvey.fld4.checked)
+  {
+    document.body.style.backgroundColor = "blue";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+function changeColour4()
+{
+  if (document.frmSurvey.fld5.checked)
+  {
+    document.body.style.backgroundColor = "green";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+function changeColour5()
+{
+  if (document.frmSurvey.fld6.checked)
+  {
+    document.body.style.backgroundColor = "#F8A310";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+function changeColour6()
+{
+  if (document.frmSurvey.fld7.checked)
+  {
+    document.body.style.backgroundColor = "#EB48E3";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+function changeColour7()
+{
+  if (document.frmSurvey.fld8.checked)
+  {
+    document.body.style.backgroundColor = "#858488";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+
+function changeColour8()
+{
+  if (document.frmSurvey.fld9.checked)
+  {
+    document.body.style.backgroundColor = "#F317F3";
+  }
+  else
+  {
+    document.body.style.backgroundColor ="#FFFFFF"; // branco
+  }
+}
+
+
+
+
+</script>
+</head>
+<body><div align="center">
+<form name="frmSurvey" id="frmSurvey">
+<br><h2>Selecione a cor no check box</h2></br><br>
+<input type="checkbox" name="fld2" id="fld2" onclick="changeColour()">Vermelho<br>
+<input type="checkbox" name="fld3" id="fld3" onclick="changeColour2()">Amarelo<br>
+<input type="checkbox" name="fld4" id="fld4" onclick="changeColour3()">Azul<br>
+<input type="checkbox" name="fld5" id="fld5" onclick="changeColour4()">Verde<br>
+<input type="checkbox" name="fld6" id="fld6" onclick="changeColour5()">Laranja<br>
+<input type="checkbox" name="fld7" id="fld7" onclick="changeColour6()">Roxo<br>
+<input type="checkbox" name="fld8" id="fld8" onclick="changeColour7()">Cinza<br>
+<input type="checkbox" name="fld9" id="fld9" onclick="changeColour8()">Roza<br>
+</div>
+</body>
+</html>
+
+
+
+

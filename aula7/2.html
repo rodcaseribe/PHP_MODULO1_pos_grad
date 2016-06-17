@@ -1,0 +1,51 @@
+<html>  
+<head>    
+<script>
+function validar(){
+var nome = form.nome.value;
+var sobrenome =form.senha.value;
+var senha =form.senha.value;
+var rep_senha =form.rep_senha.value;
+if (nome == "" || nome.length <6){
+alert('Preencha corretamente o nome');
+form.nome.focus();
+return false;
+}
+if (sobrenome == "" || sobrenome.length <6){
+alert('Preencha corretamente o sobrenome');
+form.sobrenome.focus();
+return false;
+}
+if (senha != rep_senha) {
+alert('Senhas diferentes');
+form.senha.focus();
+return false;
+}
+}
+
+function ver_email(){
+if( document.forms[0].email.value=="" 
+   || document.forms[0].email.value.indexOf('@')==-1 
+     || document.forms[0].email.value.indexOf('.')==-1 )
+	{
+		alert( "e-mail válido!" );
+		return false;
+	}
+}
+</script>
+
+<meta charset="UTF-8"/>
+<title>Validando Formulários com Javascript</title>   
+</head>   
+<body>    
+<form method="post" name="form">      
+Nome:  <input type="text" name="nome" id="nome"><br/><br/>
+Sobrenome:  <input type="text” name="sobrenome"><br/><br/>
+Senha:  <input type="password" name="senha"><br/><br/>
+Repetir Senha:  <input type="password" name="rep_senha"><br/><br/>
+E-mail:  <input type="text" name="email" onblur="ver_email();"><br/><br/>
+<input type="submit"  value= "Enviar" onclick="return validar()">       
+<input type ="reset" value= "Limpar Dados">    
+</form>   
+</body> 
+</html>

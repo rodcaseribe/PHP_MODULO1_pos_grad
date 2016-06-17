@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<ul>
+  <li onclick="myFunction()"><a href="#">Toy Story 4 não deve ter ligação com filmes anteriores</a></li>
+  <li onclick="myFunction2()"><a href="#">Filmes para assistir neste sábado</a></li>
+  <li onclick="myFunction3()"><a href="#">Ancine apoia participação de filmes brasileiros em cinco festivais </a></li>
+</ul>
+
+<p><h2>Clique na seleção.</h2></p>
+<p id="demo"></p>
+
+
+<script>
+
+function myFunction() {
+    var list = document.getElementsByTagName("UL")[0];
+    list.getElementsByTagName("LI")[0].innerHTML = "Primeiro Elemento";
+    document.getElementById("demo").innerHTML = "Primeiro Elemento";
+    document.getElementById("demo").style.color="green";
+    list.getElementsByTagName("LI")[0].style.color="green";
+}
+
+function myFunction2() {
+    var list2 = document.getElementsByTagName("UL")[0];
+    list2.getElementsByTagName("LI")[1].innerHTML = "Segundo Elemento";
+    document.getElementById("demo").innerHTML = "Segundo Elemento";
+    document.getElementById("demo").style.color="green";
+    list2.getElementsByTagName("LI")[1].style.color="green";
+}
+
+
+
+function myFunction3() {
+    var list3 = document.getElementsByTagName("UL")[0];
+    list3.getElementsByTagName("LI")[2].innerHTML = "Terceiro Elemento";
+    document.getElementById("demo").innerHTML = "Terceiro Elemento";
+    document.getElementById("demo").style.color="red";
+    list3.getElementsByTagName("LI")[2].style.color="red";
+}
+</script>
+
+</body>
+</html>

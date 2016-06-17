@@ -1,0 +1,79 @@
+* {
+	margin:0;
+	padding:0;
+	}
+body {
+	text-align:center;                     
+	font:75%/140% Arial, Helvetica, sans-serif;
+	background-image: url("http://all4desktop.com/data_images/original/4238051-background.jpg");
+	}
+#tudo{
+	width:722px;
+	margin:0 auto;
+	text-align:left;
+	}
+#topo {
+	height:90px;
+	
+	}
+#principal {
+	float:left;
+	width: 408px;
+	
+	margin-left:156px;
+	display:inline;	
+	text-align:justify;
+	}
+#nav-sec {
+	float:left;
+	width: 150px;
+	background:#eee;                    
+	margin-left:6px;
+	}
+#navegacao {
+	float:left;
+	width: 150px;
+	background:#eee;
+	margin-left:-720px;
+	margin-right:6px;
+	display:inline; background: #ff8000;                                              
+	}
+#rodape {
+	height:50px;
+	background: #ff8000;  
+	clear:both;
+	} 
+h1{
+	font-size: 130%;
+	color:green;
+	margin-left:5px;
+	}
+h2{
+	font-size: 120%;
+	color:green;
+	margin-left:5px;background: #ff8000;
+	}
+p { 
+	color:#333; 
+	margin:10px 0;
+	}
+ul{
+	margin-left:5px;
+	background: #ff8000;
+	}
+li { 	
+	list-style:none;
+	}
+aside {
+	background: #ff8000;
+	}
+nav {
+	background: #ff8000;
+	}
+article {
+	background: #ff8000; 
+	}
+a:link { 
+	text-decoration:none;
+	color:green;
+	 }

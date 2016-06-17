@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!--<ul>
+  <li onclick="myFunction()"><a href="#">Toy Story 4 não deve ter ligação com filmes anteriores</a></li>
+  <li onclick="myFunction2()"><a href="#">Filmes para assistir neste sábado</a></li>
+  <li onclick="myFunction3()"><a href="#">Ancine apoia participação de filmes brasileiros em cinco festivais </a></li>
+</ul>-->
+
+
+
+<div id="demo"><p onclick="myFunction()" id="1">Paragrafo 1 - TEXTO 1</p></div>
+<div id="demo2"><p onmouseover="mOver(this)" onmouseout="mOut(this)"  id="2">Paragrafo 2 -TEXTO2</p></div>
+<div id="demo3"><p onclick="myFunction3()" id="3">Paragrafo 3 - TEXTO 3</p></div>
+
+<p><h2>Clique na seleção.</h2></p>
+<p id="demo"></p>
+
+
+<script>
+a = 0;
+b = 1;
+function myFunction() {	    
+    a++;
+    if (a ==2){
+     document.getElementById("demo").style.background="green";
+
+    }
+    else {
+    	document.getElementById("demo").style.background="white";
+    }    
+}
+
+function mOver(obj) {
+    obj.innerHTML = ""
+}
+
+function mOut(obj) {
+    obj.innerHTML = "Paragrafo 2 -TEXTO2"
+}
+
+
+
+function myFunction3() {
+    
+    
+    if (b ==2) {
+	document.getElementById("demo3").innerHTML = "Terceiro Elemento ALTERADO";
+    }
+    
+    else {
+    	b++;
+    }
+}
+</script>
+
+</body>
+</html>
